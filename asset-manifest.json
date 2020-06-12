@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/system-1-demo/static/css/main.a7da0bef.chunk.css",
+    "main.js": "/system-1-demo/static/js/main.0a142e39.chunk.js",
+    "main.js.map": "/system-1-demo/static/js/main.0a142e39.chunk.js.map",
+    "runtime-main.js": "/system-1-demo/static/js/runtime-main.1b16e534.js",
+    "runtime-main.js.map": "/system-1-demo/static/js/runtime-main.1b16e534.js.map",
+    "static/js/2.64f165d0.chunk.js": "/system-1-demo/static/js/2.64f165d0.chunk.js",
+    "static/js/2.64f165d0.chunk.js.map": "/system-1-demo/static/js/2.64f165d0.chunk.js.map",
+    "index.html": "/system-1-demo/index.html",
+    "precache-manifest.b4a6658c59470af744169512af7ce662.js": "/system-1-demo/precache-manifest.b4a6658c59470af744169512af7ce662.js",
+    "service-worker.js": "/system-1-demo/service-worker.js",
+    "static/css/main.a7da0bef.chunk.css.map": "/system-1-demo/static/css/main.a7da0bef.chunk.css.map",
+    "static/js/2.64f165d0.chunk.js.LICENSE.txt": "/system-1-demo/static/js/2.64f165d0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/system-1-demo/static/media/ChiKareGo2.e6bedc71.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b16e534.js",
+    "static/js/2.64f165d0.chunk.js",
+    "static/css/main.a7da0bef.chunk.css",
+    "static/js/main.0a142e39.chunk.js"
+  ]
+}
