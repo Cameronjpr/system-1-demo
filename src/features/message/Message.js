@@ -8,7 +8,6 @@ export function Message(props) {
     msgRef.current.scrollIntoView();
   });
 
-  console.log(props)
   return (
     <StyledMessage ref={msgRef}>
       <span>{props.msg.text}</span>
