@@ -1,8 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import messageReducer from '../features/message/messageSlice'
+import toolbarReducer from '../features/toolbar/toolbarSlice'
+import windowReducer from '../features/window/windowSlice';
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    message: messageReducer,
+    toolbar: toolbarReducer,
+    window: windowReducer
   },
 });

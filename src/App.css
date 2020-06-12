@@ -1,39 +1,57 @@
 .App {
   text-align: center;
+  width: 100vw;
+  height: 100vh;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.message-container { 
+  margin: auto;
+  border: 2px solid black;
+  width: 320px;
+  max-height: 320px;
+  background: white;
+  left: 10%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
+main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  height: 230px;
+  margin-top: 2px;
+  border-top: 2px solid black;
 }
 
-.App-link {
-  color: rgb(112, 76, 182);
+header {
+  border-bottom: 2px solid black;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  line-height: 26px;
+  user-select: none;
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+header .background {
+  height: 24px;
+  background: repeating-linear-gradient(
+    white,
+    white 2px, 
+    black 2px,
+    black 4px
+  );
+}
+
+header span {
+  padding-left: 8px;
+  padding-right: 4px;
+  background-color: #FFF;
+}
+
+input, button { 
+  -webkit-appearance: none;
+}
+:focus {
+  outline:none
 }

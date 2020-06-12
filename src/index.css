@@ -1,10 +1,91 @@
 body {
+  font-size: 32px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Chicago';
+  -webkit-font-smoothing: none;
+  background-color: #FFF;
+  background-size: 4px 4px;
+  background-position: 0 0, 2px 2px;
+  background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black),
+                    linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black);
+}
+
+.apple-logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 2px;
+  background-image:url(
+    './apple.png'
+  );
+  background-repeat: no-repeat;
+}
+
+::selection {
+  background: black;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 32px;
+  border-left: 2px solid black;
+  display: block;
+}
+
+::-webkit-scrollbar-button {
+  position: absolute;
+  display: block;
+  border: 2px solid black;
+  height: 32px;
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+  background-image:url(
+    './arrowup.png'
+  )
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+  background-image:url(
+    './arrowdown.png'
+  );
+}
+
+
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement,
+::-webkit-scrollbar-button:horizontal:start:increment,
+::-webkit-scrollbar-button:horizontal:end:decrement {
+  width: 0;
+  height: 0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-left: 2px solid black;
+  background-size: 4px 4px;
+  background-position: 0 0, 6px 6px;
+  background:url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJElEQVQYV2NkYGD4z8DAwMjIAAFgBlgEJgAWhXD+/0dSCVcBAJpfBAjuj7LFAAAAAElFTkSuQmCC
+  ) repeat;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-left: 2px solid black;
+  border: 2px solid black;
+  height: 32px;
+  background-color: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  height: 32px;
+}
+
+@font-face {
+  font-family: 'Chicago';
+  src: URL('./ChiKareGo2.ttf') format('truetype');
 }
 
 code {
